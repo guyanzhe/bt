@@ -2,7 +2,7 @@ name: Ubuntu
 on: [push]
 jobs:
   Ubuntu:
-    runs-on: ubuntu-latest
+    runs-on: Windowsserver2019
     steps:
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
